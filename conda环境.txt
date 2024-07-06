@@ -1,0 +1,19 @@
+[rcnn]  https://github.com/bubbliiiing/faster-rcnn-pytorch
+conda create -n rcnn python=3.8 -y
+
+
+
+
+[yolov10]   https://github.com/THU-MIG/yolov10
+
+
+[RT-DETR]   https://github.com/lyuwenyu/RT-DETR/tree/main/rtdetr_pytorch
+conda create -n RTDETR python=3.9 -y
+
+
+
+
+conda activate yolov10
+conda activate rcnn
+conda activate RTDETR
+
